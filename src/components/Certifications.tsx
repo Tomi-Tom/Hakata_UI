@@ -85,9 +85,9 @@ export function Certifications() {
               <div className="relative h-full bg-[#171717] border border-[#262626] rounded-xl p-8 transition-all duration-300 group-hover:border-[#76b900]/50 group-hover:shadow-lg group-hover:shadow-[#76b900]/10">
                 {/* Icon */}
                 <motion.div
-                  whileHover={{ rotate: 360 }}
-                  transition={{ duration: 0.6 }}
-                  className="w-16 h-16 bg-[#76b900]/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#76b900]/15 transition-colors mx-auto border border-[#76b900]/20"
+                  whileHover={{ scale: 1.1, y: -2 }}
+                  transition={{ duration: 0.3, ease: "easeOut" }}
+                  className="w-16 h-16 bg-[#76b900]/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#76b900]/20 group-hover:shadow-[0_0_20px_rgba(118,185,0,0.3)] transition-all mx-auto border border-[#76b900]/20 group-hover:border-[#76b900]/40"
                 >
                   <cert.icon className="w-8 h-8 text-[#76b900]" />
                 </motion.div>
